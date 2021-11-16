@@ -38,7 +38,7 @@ TrizettoProvider:
         col2: OrgIdentifier:string:4:NOTNULL:AUTO_INT
         col3: Name:string:30:NOTNULL:CONCAT(First_Name,Middle_Initials,Last_Name)
         col4: Title:string:6:NULL:Title
-        col5: Suffix:string:NULL:Suffix
+        col5: Suffix:string:1:NULL:Suffix
         col6: StatusCode:string:10:NOTNULL:FUNC(ACTIVE,TERMED,SUSPENDED)
         col7: AddressLine1:string:30:NOTNULL:Street_Address
         col8: AddressLine2:string:30:NULL:NA
